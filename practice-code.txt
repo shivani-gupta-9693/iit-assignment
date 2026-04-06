@@ -1,0 +1,7 @@
+printt("hello Github!")
+name = "shivani"
+print (" welcome to python programming, " + name)
+# Basic Calculation 
+a=10
+b=5
+print("Sum of 10 and 5 is:", a+b)
