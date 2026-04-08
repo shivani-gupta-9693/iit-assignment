@@ -1,4 +1,17 @@
-print("hello shivani")
-a=5
-b=10
-print("Total sum is:", a +b)
+Number = [1,2,3,4,5,6]
+
+
+
+sum = 0
+
+
+
+for num in numbers:
+
+    if num %2 == 0:
+
+       sum = sum + num
+
+
+
+print (sum)
