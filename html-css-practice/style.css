@@ -1,0 +1,48 @@
+/* Header alignment - Focal point */
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Navigation - Pushed to the right */
+nav {
+    text-align: right;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* About Section - Heading Left, Paragraph Justified */
+#about h2 {
+    text-align: left;
+}
+
+#about p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Stats Section - Numerical data right-aligned */
+#stats {
+    padding: 20px 0;
+}
+
+.stat-line {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Footer - Centered at the bottom */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
