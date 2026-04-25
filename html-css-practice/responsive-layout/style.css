@@ -1,0 +1,35 @@
+/* box model setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile-First: Default styling (Small Screens) */
+.container {
+    display: flex;
+    flex-direction: column; /* Boxes ek ke niche ek aayenge */
+    padding: 20px;
+}
+
+.box {
+    width: 100%; /* Mobile par poori width */
+    padding: 20px; /* Andar ki jagah */
+    margin-bottom: 15px; /* Boxes ke beech ki jagah */
+    border: 2px solid #333; /* Border */
+    background-color: #f9f9f9;
+}
+
+/* Responsive Behavior: Laptop/Desktop (769px and up) */
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row; /* Boxes ek line mein (side-by-side) aayenge */
+        justify-content: center;
+        gap: 20px; /* Boxes ke beech barabar gap */
+    }
+
+    .box {
+        width: 250px; /* Fixed width for desktop boxes */
+        margin-bottom: 0; /* Neeche wala margin hata dein */
+    }
+}
