@@ -1,0 +1,40 @@
+/* Base Styles (Desktop - Default) */
+body {
+    background-color: white; /* Desktop default */
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex; /* Flexbox layout */
+    gap: 16px;
+}
+
+.news-item {
+    flex: 1; /* Equal width distribution */
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold; /* Inline element styling */
+}
+
+/* Tablet Breakpoint (601px - 768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+/* Mobile Breakpoint (< 600px) */
+@media (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+    
+    .container {
+        flex-direction: column; /* Stack vertically on mobile */
+    }
+}
